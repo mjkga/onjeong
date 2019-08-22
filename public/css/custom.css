@@ -1,0 +1,72 @@
+/* 공통 css */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #999;
+}
+
+/* 급식소 card css */
+/* .btn-feed-creat {
+
+} */
+
+.cat-feed-info {
+  height: 285px;
+  overflow: hidden;
+}
+
+.btn-feed-creat {
+  height: 285px;
+  line-height: 285px;
+  border: 2px dashed #ccc;
+  background-color: transparent;
+  font-size: 1.6em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cat-feed-info-des {
+  margin-top: -15px;
+  background-color: #fff;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+/* .cat-feed-info-title {
+
+} */
+
+
+/* 게시판 */
+
+.edit-area .card-title {
+  display: inline-block;
+}
+
+.table-striped tbody tr:nth-of-type(odd)  {
+  background-color: transparent ;
+}
+
+table.custom-table {
+  border-collapse: collapse !important;
+}
+
+table.custom-table thead th {
+  border-bottom: 1px solid #ccc;
+}
+
+table.custom-table th, table.custom-table td {
+  padding: 0.9rem;
+}
+
+table.custom-table tbody tr:hover {
+  background-color: #ccc;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .table.custom-table thead th {
+  border-bottom: 1px solid #999;
+} */

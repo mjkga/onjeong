@@ -1,0 +1,14 @@
+I"ý(function() {
+  $(document).on('turbolinks:load', function() {
+    $('[data-provider="summernote"]').each(function() {
+      return $(this).summernote({
+        lang: 'ko-KR'
+      });
+    });
+    return {
+      height: 300
+    };
+  });
+
+}).call(this);
+:ET
